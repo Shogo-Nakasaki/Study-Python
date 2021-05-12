@@ -22,8 +22,7 @@
     <dt>どうして作ったか</dt>
     <dd>Pythonで作成したプログラムをどうやってexe化するかを学習するため。</dd>
     <dt>どうやったか</dt>
-    <dd>1.対象のプログラムと同じフォルダでコマンドプロントから以下を入力する。</dd>
-    <br>pyinstaller blah_blah_blah.py --onefile
+    <dd>1.対象のプログラムと同じフォルダでコマンドプロントから以下を入力する。<br>pyinstaller blah_blah_blah.py --onefile</dd>
     <dd>2.実行するとbuildとdistというフォルダが作成される</dd>
     <dd>3.distフォルダの中にexeファイルがあり、これがexe化されたPythonファイルになる</dd>
 </dl>
