@@ -23,9 +23,7 @@
     <dd>Pythonで作成したプログラムをどうやってexe化するかを学習するため。</dd>
     <dt>どうやったか</dt>
     <dd>1.対象のプログラムと同じフォルダでコマンドプロントから以下を入力する。</dd>
-```html:sample
-   pyinstaller blah_blah_blah.py --onefile
-```(
+    <br>pyinstaller blah_blah_blah.py --onefile
     <dd>2.実行するとbuildとdistというフォルダが作成される</dd>
     <dd>3.distフォルダの中にexeファイルがあり、これがexe化されたPythonファイルになる</dd>
 </dl>
