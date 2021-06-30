@@ -23,4 +23,4 @@ while(True):
     ws.cell(row=num, column=3, value=str(text2))
     wb.save("System英単語.xlsx")
 # 終了のため、再度保存
-wb.save("System英単語.xlsx")
+# wb.save("System英単語.xlsx")
